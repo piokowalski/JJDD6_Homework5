@@ -10,7 +10,6 @@
 <br>
 <h2>${time}</h2>
 <br>
-
 <form action="/infoShareAcademy" method="post">
     Parameter 1:
     <input type="text" name="param1"><br>

@@ -16,12 +16,10 @@ import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
 
-
 @WebServlet("/infoShareAcademy")
 public class Servlet extends HttpServlet {
     @Inject
     TemplateProvider templateProvider;
-
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -37,8 +35,6 @@ public class Servlet extends HttpServlet {
             }
         }
     }
-
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String name = "Piotr";
